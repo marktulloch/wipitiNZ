@@ -4,31 +4,25 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
 <meta name="theme-color" content="#000000">
-<meta name="description" content="WIPITI develops sovereign aerospace and autonomous defence systems in New Zealand.">
+<meta name="description" content="WIPITI | Aerospace & Autonomous Systems">
 <title>WIPITI | Aerospace & Autonomous Systems</title>
 <style>
 *{box-sizing:border-box}
 html{background:#000;color:#fff}
-body{margin:0;min-height:100svh;display:flex;align-items:center;justify-content:center;font-family:Arial,Helvetica,sans-serif}
-main{width:min(100% - 40px,840px);text-align:center;padding:64px 0}
-.brand{display:flex;align-items:center;justify-content:center;gap:clamp(20px,4vw,45px);margin:0 auto 34px}
-.mark{width:clamp(76px,14vw,140px);height:auto;flex:none}
-.wordmark{font-size:clamp(2.4rem,8vw,6rem);font-weight:750;letter-spacing:.19em;line-height:1;margin-right:-.19em}
-.subtitle{font-size:clamp(.65rem,1.6vw,.88rem);font-weight:600;letter-spacing:.3em;text-transform:uppercase;color:#b7b7b7}
-.contact{display:inline-flex;align-items:center;justify-content:center;margin-top:38px;color:#b7b7b7;text-decoration:none;transition:color .2s ease}.contact:hover,.contact:focus-visible{color:#fff}.contact svg{width:23px;height:23px;stroke:currentColor;fill:none;stroke-width:1.5;stroke-linecap:round;stroke-linejoin:round}
-@media(max-width:560px){.brand{gap:18px}.mark{width:72px}.wordmark{font-size:clamp(1.9rem,9vw,3.4rem);letter-spacing:.12em;margin-right:-.12em}.subtitle{letter-spacing:.16em}.contact{margin-top:32px}}
+body{margin:0;min-height:100svh;display:grid;place-items:center;font-family:Arial,Helvetica,sans-serif}
+main{width:min(100% - 40px,1040px);text-align:center;padding:60px 0}
+.logo{display:block;width:100%;height:auto;margin:0 auto}
+.subtitle{font-size:clamp(.65rem,1.5vw,.86rem);font-weight:600;letter-spacing:.27em;text-transform:uppercase;color:#aaa;margin:30px 0 0}
+.contact{display:inline-flex;align-items:center;justify-content:center;margin-top:34px;color:#aaa;text-decoration:none;transition:color .2s}
+.contact:hover,.contact:focus-visible{color:#fff}
+.contact svg{width:22px;height:22px;stroke:currentColor;fill:none;stroke-width:1.5;stroke-linecap:round;stroke-linejoin:round}
+@media(max-width:560px){.subtitle{letter-spacing:.13em;margin-top:24px}.contact{margin-top:28px}}
 </style>
 </head>
 <body>
 <main>
-<div class="brand" aria-label="WIPITI">
-<svg class="mark" viewBox="440 85 238 158" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="WIPITI emblem">
-<path fill="#fff" d="M443 88 L472 88 L558 199 L645 88 L674 89 L559 239 L557 239 Z"/>
-<path fill="#fff" d="M491 88 L503 88 L507 91 L558 158 L613 88 L627 89 L560 175 L557 176 Z"/>
-</svg>
-<div class="wordmark">WIPITI</div>
-</div>
-<div class="subtitle">Aerospace &amp; Autonomous Systems</div>
+<img class="logo" src="./wipiti-logo.png" alt="WIPITI" width="2048" height="340">
+<p class="subtitle">Aerospace &amp; Autonomous Systems</p>
 <a class="contact" href="mailto:contact@wipiti.nz" aria-label="Email WIPITI at contact@wipiti.nz" title="contact@wipiti.nz"><svg viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="m3 7 9 6 9-6"/></svg></a>
 </main>
 </body>
